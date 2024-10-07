@@ -6,19 +6,26 @@
    Tutorial Case
 
    Tables Style Sheet
-   Author: 
-   Date:   
+    Author: Amanda Patschke
+    Date: 10/4/2024
 
    Filename:         dlr_tables.css
 
 */
 
 /* Table Styles */
-
+table.schedule {
+  background: white;
+  border: 10px outset rgb(153, 0, 153);
+  font-size: 0.75em;
+  width: 100%;
+}
 
 
 /* Table Cell Styles */
-
+table.schedule th, table.schedule td {
+  border: 1 px solid gray;
+}
 
 
 /* Table Caption Styles */
